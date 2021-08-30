@@ -47,7 +47,7 @@ from sklearn.model_selection import KFold
 import time
 
 
-# path to the folder with feature data
+# path to the folder with feature data and the folder to save the output to
 base_path = '/path/to/file/benty_fields_features'
 save_path = '/path/to/file/save_location'
 
