@@ -117,8 +117,8 @@ def test_paper_recommendation_engine(i,j,k):
         with open(filename3,"a+") as f:
             f.write("%d %f %f\n" % (i,papers[-1],process_time[-1])) 
         f.close()
-    print ("mean AUC = " + np.mean(aucs))
-    print ("total processing time = " + np.sum(process_time))
+    print ("mean AUC = " + str(np.mean(aucs)))
+    print ("total processing time = " + str(np.sum(process_time)))
 
     
     
